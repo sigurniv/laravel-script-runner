@@ -1,0 +1,30 @@
+{
+  "name": "sigurniv/laravel-script-runner",
+  "description": "This package provides an easy way to run post-release scripts",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Kargin",
+      "email": "sigurniv@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.2",
+    "illuminate/database": "5.5.0 - 6.0",
+    "illuminate/console": "5.5.0 - 6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sigurniv\\LaravelScriptRunner\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sigurniv\\LaravelScriptRunner\\LaravelScriptRunnerServiceProvider"
+      ]
+    }
+  }
+}
