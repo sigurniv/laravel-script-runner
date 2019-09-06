@@ -9,7 +9,7 @@ it after you deploy your code:
 $ php artisan script-runner:migrate 
 ```
 
-###Installation
+### Installation
 You'll have to follow a couple of simple steps to install this package.
 
 ### Downloading
